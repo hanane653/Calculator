@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <input type="number" id="num1" class="form-control" placeholder="Number 1" aria-label="Number" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <select id="operateur" class="form-control form-control-xs">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <input type="number"  id="num2" class="form-control" placeholder="Number 2" aria-label="Number" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <button onclick="calculer()" class="btn btn-primary">Calculer</button>
+                <button onclick="effacer()" class="btn btn-default">Effacer</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p id="resultat">Résultat : </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="C:\Users\hp\Desktop\CalculatorProject\app.js"></script>
+</body>
+</html>
